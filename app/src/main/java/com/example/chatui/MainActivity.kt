@@ -13,7 +13,9 @@ import kotlinx.android.synthetic.main.activity_main.*
 import org.w3c.dom.Text
 import java.lang.IllegalArgumentException
 //定义消息的实体类
+//定义消息的实体类
 class Msg(val content:String,val type:Int){
+    //定义静态成员
     //定义静态成员
     companion object{
         const val RIGHT = 0
